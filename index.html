@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>R.P.S</title>
+</head>
+<body>
+    <h1>Vic-Tech R.P.S Game</h1>
+    <button class="rock-btn" onclick="computerMove()
+    playerMove('rock');
+    "><img src="myImages/rock-emoji.png" alt="rock"></button>
+
+    <button class="paper-btn" onclick="computerMove()
+     playerMove('paper')
+    "><img src="myImages/paper-emoji.png" alt="paper"></button>
+
+
+    <button class="paper-btn" onclick="computerMove()
+      playerMove('scissors');
+    "><img src="myImages/scissors-emoji.png" alt="scissors-emoji"></button>
+    <button onclick="clearAll ()" class="design">Start Over</button>
+
+    <p class ="results"></p>
+     <p class="results-decider"style="font-size: 20px;"></p>
+     <p class="final" style="font-size: 30px;"></p>
+     <p class="scores-one"  style="font-size: 20px;"></p>
+     <p class="show-result" style="font-size: 20px;"></p>
+    <script src="port.js"></script>
+</body>
+</html>

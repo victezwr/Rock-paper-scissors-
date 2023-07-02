@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+ }
+ p {
+    font-weight: bold;
+    margin-top: 70px;
+ }
+ button{
+    margin-top: 70px;
+    cursor: pointer;
+    border: 2px solid wheat;
+    border-radius: 25px;
+ }
+ img{
+   background-color: transparent;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+ }
+ .design{
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+   margin-left: 30px;
+   margin-top: 0px;
+ }
